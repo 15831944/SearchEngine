@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine", "3\SearchEngine.csproj", "{7784AE0A-201C-41AB-BF91-5922A4F74F8E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent", "Agent\Agent.csproj", "{CFAE9DE6-01E4-47B2-989E-37D89413A4F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{4B18339E-D9F1-469E-95F0-3142B52E3D20}"
@@ -11,16 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootStraper", "BootStraper\BootStraper.csproj", "{399F81DB-C307-438A-8DB2-571F80ECA6EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine", "SearchEngine\SearchEngine.csproj", "{6BFE85FA-4163-4939-B72D-A6BA5B44B77A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7784AE0A-201C-41AB-BF91-5922A4F74F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7784AE0A-201C-41AB-BF91-5922A4F74F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7784AE0A-201C-41AB-BF91-5922A4F74F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7784AE0A-201C-41AB-BF91-5922A4F74F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CFAE9DE6-01E4-47B2-989E-37D89413A4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CFAE9DE6-01E4-47B2-989E-37D89413A4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFAE9DE6-01E4-47B2-989E-37D89413A4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,5 +33,9 @@ Global
 		{399F81DB-C307-438A-8DB2-571F80ECA6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{399F81DB-C307-438A-8DB2-571F80ECA6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{399F81DB-C307-438A-8DB2-571F80ECA6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFE85FA-4163-4939-B72D-A6BA5B44B77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFE85FA-4163-4939-B72D-A6BA5B44B77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFE85FA-4163-4939-B72D-A6BA5B44B77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFE85FA-4163-4939-B72D-A6BA5B44B77A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
