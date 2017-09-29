@@ -11,6 +11,8 @@
     <Compile Remove="FileSystem.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="dexih.connections.webservice.soap" Version="0.2.4-CI00140" />
+    <Folder Include="Implementations\" />
+    <Folder Include="Implementations\File System\" />
+    <Folder Include="Implementations\Synergy\" />
   </ItemGroup>
 </Project>
