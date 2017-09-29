@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="FileSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="dexih.connections.webservice.soap" Version="0.2.4-CI00140" />
+  </ItemGroup>
+</Project>
