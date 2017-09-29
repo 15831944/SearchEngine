@@ -6,7 +6,7 @@ namespace Common
 
 	}
 
-    public class AgentConfiguration
+    public interface IAgentConfiguration
     {
         
     }
