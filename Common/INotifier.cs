@@ -1,8 +1,7 @@
 ﻿using System;
 namespace Common
 {
-    public interface IQueue
+    public interface INotifier
     {
-
     }
 }

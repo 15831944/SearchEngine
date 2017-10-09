@@ -1,8 +1,7 @@
 ﻿using System;
 namespace Common
 {
-    public interface ILogger
+    public interface IOperation:ITransaction
     {
-
     }
 }

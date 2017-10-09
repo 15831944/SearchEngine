@@ -1,7 +1,8 @@
 ﻿using System;
-namespace Agent.Implementations.Synergy
+using Common;
+namespace Agent.Implementations
 {
-    public class SynergyConfiguration
+    public class SynergyConfiguration:Agent, IAgentConfiguration
     {
         public SynergyConfiguration()
         {

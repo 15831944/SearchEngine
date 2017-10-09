@@ -1,11 +1,7 @@
 ﻿using System;
 using Common;
-namespace Agent.Implementations.FileSystem
+namespace Agent.Implementations
 {
-    public class FileSystemConfiguration:IAgentConfiguration
-    {
-        public FileSystemConfiguration()
-        {
-        }
-    }
+    public class FileSystemAgentConfiguration: IAgentConfiguration
+    { }
 }
