@@ -8,20 +8,9 @@ namespace Agent
         public enAgentType Type { get; set; }
     }
 
-    public abstract class AgentOperation : IOperation
-    {
-        public bool IsCompleted { get; set; }
-        Agent _agent;
 
-        public abstract void Execute();
-
-        public AgentOperation(Agent agent)
-        {
-            _agent = agent;
-        }
-    }
-
-    public abstract class NotifyDataChanged : AgentOperation
+    //command pattern
+    public abstract class NotifyDataChanged : Operation<Agent>
     {
         public NotifyDataChanged(Agent agent) : base(agent)
         {
@@ -34,7 +23,8 @@ namespace Agent
         }
     }
 
-    public abstract class PullChangedData : AgentOperation
+    //command pattern
+    public abstract class PullChangedData : Operation<Agent>
     {
         public PullChangedData(Agent agent) : base(agent)
         {

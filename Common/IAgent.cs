@@ -6,7 +6,10 @@ namespace Common
         enAgentType Type { get; }
     }
 
-    public interface IAgentConfiguration:IConfiguration{}
+    public interface IAgentConfiguration:IConfiguration
+    {
+        
+    }
         
     public enum enAgentType
     {
